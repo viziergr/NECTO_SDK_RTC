@@ -112,7 +112,7 @@
 /*!< @brief SOFTWARE RESET MACROS */
 #define WDG_ACCESS              0x00005555
 #define WDG_RLR_SETUP           0x00000001
-#define WDG_LAUCH               0x0000CCCC
+#define WDG_LAUNCH              0x0000CCCC
 
 
 // ----------------------------------------------------------------- PRIVATE TYPES
@@ -281,7 +281,7 @@ err_t hal_ll_rtc_get_time( hal_ll_rtc_t *time ) {
 void hal_ll_software_reset() {
     write_reg( registers.iwdg_kr, WDG_ACCESS );
     write_reg( registers.iwdg_rlr, WDG_RLR_SETUP );
-    write_reg( registers.iwdg_kr, WDG_LAUCH );
+    write_reg( registers.iwdg_kr, WDG_LAUNCH );
 }
 
 #endif
