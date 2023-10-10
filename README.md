@@ -3,7 +3,7 @@
 [![SDK Version](https://img.shields.io/badge/mikroSDK%20version-2.8.0-gold)](https://github.com/MikroElektronika/mikrosdk_v2/tree/mikroSDK-2.8.0)
 
 ---
-## About
+## bout
 
 **mikroSDK 2.0** is an embedded software development framework designed to simplify</br>
 and accelerate application development on **Mikroe** hardware platform,</br>
