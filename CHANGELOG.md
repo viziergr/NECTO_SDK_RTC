@@ -1,9 +1,9 @@
-# CHANGELOG blablablablabla
+# CHANGELOG
 
 *All notable changes to this project shall be documented in this file.*
 
 **VERSIONS:**
-test
+
 + **[v2.8.0](#v280)**
 + **[v2.7.2](#v272)**
 + **[v2.7.1](#v271)**
@@ -21,7 +21,7 @@ test
 + **[v2.0.1](#v201)**
 + **[v2.0.0](#v200)**
 
----kjhkjhk
+---
 ---
 ---
 
