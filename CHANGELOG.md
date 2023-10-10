@@ -1,4 +1,4 @@
-# CHANGELOG
+# CHANGELOG blablablablabla
 
 *All notable changes to this project shall be documented in this file.*
 
