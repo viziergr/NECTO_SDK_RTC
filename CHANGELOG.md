@@ -1,4 +1,4 @@
-# CHANGELOG aymeric
+# CHANGELOG
 
 *All notable changes to this project shall be documented in this file.*
 
