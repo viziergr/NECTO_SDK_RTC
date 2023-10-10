@@ -37,36 +37,40 @@
 **
 ****************************************************************************/
 /*!
- * @file  hal_ll_target_names.h
- * @brief Header file containing symbolic pin name definitions.
+ * @file drv_rtc.c
+ * @brief lib_drv_rtc library.
  */
 
-#ifndef _HAL_LL_TARGET_NAMES_H_
-#define _HAL_LL_TARGET_NAMES_H_
+#include "drv_rtc.h"
 
-#ifdef __cplusplus
-extern "C"{
-#endif
-
-#include <stdbool.h>
-#include <stddef.h>
-// #include <string.h>
-#include <stdint.h>
-// #include <stdlib.h>
-
-typedef uintptr_t handle_t;
-typedef uint8_t hal_ll_gpio_mask_t;
-typedef uint8_t hal_ll_pin_name_t;
-typedef uint8_t hal_ll_port_name_t;
-typedef uint8_t hal_ll_port_size_t;
-typedef uint32_t hal_ll_base_addr_t;
-typedef uint8_t hal_ll_channel_t;
-
-typedef int32_t hal_ll_err_t;
-
-#ifdef __cplusplus
+void rtc_init() {
+    hal_rtc_init();
 }
-#endif
 
-#endif // _HAL_LL_TARGET_NAMES_H_
-// ------------------------------------------------------------------------- END
+err_t rtc_configure_default( rtc_t *time ) {
+    return hal_configure_default( time );
+}
+
+err_t rtc_start() {
+    return hal_rtc_start();
+}
+
+err_t rtc_stop() {
+    return hal_rtc_stop();
+}
+
+err_t rtc_reset() {
+    return hal_rtc_reset();
+}
+
+err_t rtc_set_time( rtc_t *time ) {
+    return hal_rtc_set_time( time );
+}
+
+err_t rtc_get_time( rtc_t *time ) {
+    return hal_rtc_get_time( time );
+}
+
+void software_reset() {
+    hal_software_reset();
+}
