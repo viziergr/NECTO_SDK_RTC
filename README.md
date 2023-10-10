@@ -6,6 +6,7 @@
 ## About
 
 **mikroSDK 2.0** is an embedded software development framework designed to simplify change test</br>
+
 and accelerate application development on **Mikroe** hardware platform,</br>
 specifically for [**Click Boards&trade;**](https://github.com/MikroElektronika/mikrosdk_click_v2) and other extension board drivers, on a wide range</br>
 of microcontroller vendors and architectures. It includes peripheral libraries</br>
