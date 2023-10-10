@@ -91,3 +91,5 @@ if (tftTests)
         add_subdirectory(tft_jig)
     endif()
 endif()
+
+add_subdirectory(rtc)

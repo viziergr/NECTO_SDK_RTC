@@ -11,3 +11,4 @@ add_subdirectory(src/uart)
 #  PERIPHERAL PIN SELECT
 add_subdirectory(src/pps)
 add_subdirectory(src/one_wire)
+add_subdirectory(src/rtc)
